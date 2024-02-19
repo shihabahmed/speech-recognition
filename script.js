@@ -41,7 +41,7 @@ function testSpeech() {
   var speechRecognitionList = new SpeechGrammarList();
   speechRecognitionList.addFromString(grammar, 1);
   recognition.grammars = speechRecognitionList;
-  recognition.lang = 'en-US';
+  recognition.lang = 'bn-BD';
   recognition.interimResults = false;
   recognition.maxAlternatives = 1;
 
